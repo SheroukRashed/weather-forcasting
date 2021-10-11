@@ -1,16 +1,26 @@
 {
   "name": "weather-geo-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheroukRashed/weather-forcasting.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheroukRashed/weather-forcasting/issues"
+  },
+  "homepage": "https://github.com/SheroukRashed/weather-forcasting#readme",
+  "description": "",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "express": "^4.17.1",
+    "hbs": "^4.1.2",
     "nodemon": "^2.0.13"
   }
 }
